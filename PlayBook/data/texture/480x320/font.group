@@ -1,0 +1,35 @@
+CIwResGroup
+{
+//480x320
+	name "font"
+	CIwGxFont
+	{
+		name "AllerS"
+		
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 5
+	}
+	
+	CIwGxFont
+	{
+		name "AllerM"
+		
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 8
+	}
+	CIwGxFont
+	{
+		name "AllerL"
+		
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 12
+	}
+	
+	CIwGxFont
+	{
+		name "AllerXL"
+		
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 14
+	}
+}

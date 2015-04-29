@@ -1,0 +1,57 @@
+# This file is for configuration settings for your
+# application.
+#
+# The syntax is similar to windows .ini files ie
+#
+# [GroupName]
+# Setting = Value
+#
+# Which can be read by your application using
+#  e.g s3eConfigGetString("GroupName", "Setting", string)
+#
+# All settings must be documented in .config.txt files.
+# New settings specific to this application should be
+# documented in app.config.txt
+#
+# Some conditional operations are also permitted, see the
+# S3E documentation for details.
+
+[s3e]
+SplashscreenBkR=255
+SplashscreenBkG=255
+SplashscreenBkB=255
+SplashScreenFile=sprite.jpg
+SplashScreenWidth=480
+SplashScreenHeight=320
+DispFixRot=FixedLandscape
+
+
+#rest all retina iphone4/4s ipodTouch4 and ipad1/2 devices
+{} 
+IOSDispScaleFactor=200
+memSize = 70108864 
+MemSizeDebug = 70108864 
+
+#ipad3 wifi 3g wifi+3g models
+{ID=IPHONE "iPad3,1","iPad3,2","iPad3,3"}
+IOSDispScaleFactor=100
+memSize = 280108864
+MemSizeDebug = 280108864
+
+#all non retina devices
+{ID=IPHONE "iPhone1,1","iPhone1,2","iPhone2,1","iPod1,1","iPod2,1","iPod3,1"}
+IOSDispScaleFactor=200 #falls back to 100 anyways
+memSize = 55108864
+MemSizeDebug = 55108864
+
+[GX]
+{} 
+DataCacheSize=65536
+Rasterisation=HW or SW
+#DisplayFrameRate=1
+#[GL]
+#EGL_SAMPLE_BUFFERS=1
+#EGL_SAMPLES=4
+[GxFont]
+{} 
+CacheTextureMaxSize=2048

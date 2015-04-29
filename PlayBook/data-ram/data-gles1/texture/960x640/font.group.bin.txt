@@ -1,0 +1,22 @@
+ResGroupResources:
+	CIwGxFontTTFont (0xc084661d)
+		"Aller_Rg" (0x7d8789ed)
+		Size: 134450
+	ResList 'CIwGxFontTTFont' pos:35 size:134460
+
+	CIwGxFont (0xa68776be)
+		"AllerS" (0xf202b5e8)
+		Size: 31
+	CIwGxFont (0xa68776be)
+		"AllerM" (0xf202b5e2)
+		Size: 31
+	CIwGxFont (0xa68776be)
+		"AllerL" (0xf202b5e1)
+		Size: 31
+	CIwGxFont (0xa68776be)
+		"AllerXL" (0x325973f9)
+		Size: 31
+	ResList 'CIwGxFont' pos:134495 size:134
+
+ResGroupResources: Wrote 134598 bytes to CIwResGroup "font"
+

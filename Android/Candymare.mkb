@@ -1,0 +1,252 @@
+#!/usr/bin/env mkb
+
+options
+{
+	module_path="d:\\Marmalade\\5.2\\examples;.\\ad;.\\transitions2d"
+	app-icf=".\\data\\app.icf"
+}
+# files specifies all files to build
+files
+{
+	["src"]
+	(src)
+	main.cpp
+	game.cpp
+	error.cpp
+	layout.cpp
+	AudioPlayer.cpp
+	IwGameFacebook.cpp
+
+	
+	["layout"]
+	(layout)
+	layout.h
+	spriteBase.h
+	menuLayout.h
+	themeLayout.h
+	themeScrollLayout.h
+	themeIntroLayout.h
+	levelEndLayout.h
+	levelLayout.h
+	gameLayout.h
+	gameMenuLayout.h
+	infoLayout.h
+	editorLayout.h
+	optionMenuLayout.h
+	trophyLayout.h
+	cartLayout.h
+
+	["inc"]
+	(h)
+	game.h
+	error.h
+	effect.h
+	feed.h
+	util.h
+	vibrate.h
+	sprite.h
+	gameitems.h
+	gameobjects.h
+	crow.h
+	gameunit.h
+	click.h
+	clicksheet.h
+	font.h
+	touch.h
+	AudioPlayer.h
+	SoundPlayer.h
+	Tray.h
+	Jigsaw.h
+	Collision.h
+	Timer.h
+	Storage.h
+	Level.h
+	particle.h
+	ParticleSystem.h
+	graphiti.h
+	explosion.h
+	titbit.h
+	achivementUnit.h
+	achivement.h
+	achivementSystem.h
+	notificationSystem.h
+	notification.h
+	adService.h
+	IwGameFacebook.h
+	IwGameMarket.h
+	fb.h
+	applifierSystem.h
+	flurryAnalytics.h	
+	adNinjaSystem.h
+	appiraterSystem.h
+
+
+	[Data]
+	(data)
+	./sound.group
+	./texture/480x320/font.group
+	./texture/960x640/font.group
+	./texture/800x480/font.group
+	#./texture/1024x768/font.group
+	
+}
+
+includepaths
+{
+    h
+}
+
+defines
+{
+	# Define for TTF rendering support.
+	# Must be before iwgxfont subproject is first included.
+	IW_GXFONT_TTF
+}
+
+subprojects
+{
+	iw2d
+	derbh
+	transitions2d
+	SoundEngine
+	IwGameAds
+	s3eFacebook
+	s3eFlurry
+	applifier
+	s3eAdNinja 
+	s3eAndroidAppirater
+	heyzapsdk/HeyzapMarmalade
+}
+
+
+assets
+{
+	(data-ram/data-gles1,data)
+	#./appdata.i3d
+	./sprite.jpg
+	./sound.group
+	#./sound.group.bin
+	
+	./sound/menu/menu1.mp3
+	./sound/menu/menu2.mp3
+	./sound/menu/menu3.mp3
+
+	./sound/credits/credits.mp3
+
+	./sound/gameplay/gameplay1.mp3
+	./sound/gameplay/gameplay2.mp3
+	./sound/gameplay/gameplay3.mp3
+	./sound/gameplay/gameplay4.mp3
+	./sound/gameplay/gameplay5.mp3
+	./sound/gameplay/gameplay6.mp3
+	./sound/gameplay/gameplay7.mp3
+	./sound/gameplay/gameplay8.mp3
+
+	./level/level1_1.itx
+	./level/level1_10.itx
+	./level/level1_11.itx
+	./level/level1_12.itx
+	./level/level1_13.itx
+	./level/level1_14.itx
+	./level/level1_15.itx
+	./level/level1_16.itx
+	./level/level1_17.itx
+	./level/level1_18.itx
+	./level/level1_19.itx
+	./level/level1_2.itx
+	./level/level1_20.itx
+	./level/level1_3.itx
+	./level/level1_4.itx
+	./level/level1_5.itx
+	./level/level1_6.itx
+	./level/level1_7.itx
+	./level/level1_8.itx
+	./level/level1_9.itx
+	./level/level2_1.itx
+	./level/level2_10.itx
+	./level/level2_11.itx
+	./level/level2_12.itx
+	./level/level2_13.itx
+	./level/level2_14.itx
+	./level/level2_15.itx
+	./level/level2_16.itx
+	./level/level2_17.itx
+	./level/level2_18.itx
+	./level/level2_19.itx
+	./level/level2_2.itx
+	./level/level2_20.itx
+	./level/level2_3.itx
+	./level/level2_4.itx
+	./level/level2_5.itx
+	./level/level2_6.itx
+	./level/level2_7.itx
+	./level/level2_8.itx
+	./level/level2_9.itx
+
+	./level/level3_1.itx
+	./level/level3_10.itx
+	./level/level3_11.itx
+	./level/level3_12.itx
+	./level/level3_13.itx
+	./level/level3_14.itx
+	./level/level3_15.itx
+	./level/level3_16.itx
+	./level/level3_17.itx
+	./level/level3_18.itx
+	./level/level3_19.itx
+	./level/level3_2.itx
+	./level/level3_20.itx
+	./level/level3_3.itx
+	./level/level3_4.itx
+	./level/level3_5.itx
+	./level/level3_6.itx
+	./level/level3_7.itx
+	./level/level3_8.itx
+	./level/level3_9.itx
+
+	./texture/480x320/font.group.bin
+	./texture/800x480/font.group.bin
+	./texture/960x640/font.group.bin
+	#./texture/1024x768/font.group.bin
+
+	./data480x320.ninja
+	./data800x480.ninja
+	./data960x640.ninja
+	./data1024x768.ninja
+	./dataTile.ninja
+	./dataSound.ninja
+
+}
+
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	android-external-jars='GoogleAdMobAdsSdk-6.0.1.jar,adfonic-android-sdk.jar,huntmadsadaptor.jar,JTAdTag.jar,InMobiAdapter.jar,MMAdView.jar,mobfox_combined_sdk.jar,mobfox_mediation_adapter.jar,android-ads-adapters-jumptap.jar,MillennialAdapter.jar'
+	["Android"]
+	android-aliasname='noisyninjakey'
+	android-icon='deploy/icons/droid48.png'
+	android-icon-gallery='deploy/icons/droid170.png'
+	android-icon-hdpi='deploy/icons/droid72.png'
+	android-icon-ldpi='deploy/icons/droid36.png'
+	android-icon-mdpi='deploy/icons/droid48.png'
+	android-install-location=2
+	android-keypass='230586'
+	android-keystore='deploy/noisyninja.keystore'
+	android-manifest='AndroidManifest.xml'
+	android-pkgname='com.noisyninja.candymare'
+	android-storepass='230586'
+	caption='CandyMare'
+	manufacturer='NoisyNinja'
+	name='CandyMare'
+	provider='NoisyNinja'
+	s3e-compression='lzma'
+	version-major=1
+	version-minor=0
+	["Default"]
+	name='CandyMare'
+	provider='NoisyNinja'
+	version-major=1
+	version-minor=0
+	version-revision=0
+	version-string='1.0.0'
+}

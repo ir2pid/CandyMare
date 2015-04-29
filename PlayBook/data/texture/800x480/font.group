@@ -1,0 +1,35 @@
+CIwResGroup
+{
+//960x640
+	name "font"
+	CIwGxFont
+	{
+		name "AllerS"
+		//notify,info
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 6
+	}
+	
+	CIwGxFont
+	{
+		name "AllerM"
+		//levelbox,trophy
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 10
+	}
+	CIwGxFont
+	{
+		name "AllerL"
+		//endlevel
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 16
+	}
+	
+	CIwGxFont
+	{
+		name "AllerXL"
+		//gameplay,themescroll
+		ttf "..\..\..\font\Aller_Rg.ttf"
+		ttfPointSize 22
+	}
+}

@@ -1,0 +1,714 @@
+CIwResGroup
+{
+	name "sound"
+
+
+	// Sound sample files
+	"./sound/gui/button.wav"
+	"./sound/gui/end.wav"
+	"./sound/gui/star.wav"
+	"./sound/gui/swipe.wav"
+	"./sound/gui/teleport.wav"
+	"./sound/gui/toxicated.wav"
+	"./sound/gui/scroll.wav"
+	"./sound/talk/1.wav"
+	"./sound/talk/2.wav"
+	"./sound/talk/3.wav"
+	"./sound/talk/4.wav"
+	"./sound/talk/5.wav"
+	"./sound/talk/6.wav"
+	"./sound/talk/7.wav"
+	"./sound/talk/8.wav"
+	"./sound/talk/9.wav"
+	"./sound/talk/10.wav"
+	"./sound/talk/11.wav"
+	"./sound/talk/12.wav"
+	"./sound/talk/13.wav"
+	"./sound/talk/14.wav"
+	"./sound/talk/15.wav"
+	"./sound/talk/16.wav"
+	"./sound/talk/17.wav"
+	"./sound/talk/18.wav"
+	"./sound/talk/19.wav"
+	"./sound/talk/20.wav"
+	"./sound/talk/21.wav"
+	"./sound/talk/22.wav"
+	"./sound/talk/23.wav"
+	"./sound/talk/24.wav"
+	"./sound/talk/25.wav"
+	"./sound/talk/26.wav"
+	"./sound/talk/27.wav"
+	"./sound/talk/28.wav"
+	"./sound/talk/29.wav"
+	"./sound/talk/30.wav"
+	"./sound/talk/31.wav"
+	"./sound/talk/32.wav"
+	"./sound/talk/33.wav"
+	"./sound/talk/34.wav"
+	"./sound/talk/35.wav"
+	"./sound/talk/36.wav"
+	"./sound/talk/37.wav"
+	"./sound/talk/38.wav"
+	"./sound/talk/39.wav"
+	"./sound/talk/40.wav"
+	"./sound/talk/41.wav"
+	"./sound/talk/42.wav"
+	"./sound/talk/43.wav"
+	"./sound/talk/44.wav"
+	"./sound/talk/45.wav"
+	"./sound/talk/46.wav"
+	"./sound/talk/47.wav"
+	"./sound/talk/48.wav"
+	"./sound/talk/49.wav"
+	"./sound/talk/50.wav"
+	"./sound/talk/51.wav"
+	"./sound/talk/52.wav"
+	"./sound/talk/53.wav"
+	"./sound/talk/54.wav"
+	"./sound/talk/55.wav"
+	"./sound/talk/56.wav"
+	"./sound/talk/57.wav"	
+	"./sound/talk/58.wav"
+	"./sound/talk/59.wav"
+	"./sound/talk/60.wav"
+	"./sound/talk/61.wav"
+	"./sound/talk/62.wav"
+	"./sound/talk/63.wav"
+	"./sound/talk/64.wav"
+	"./sound/talk/65.wav"
+	"./sound/talk/66.wav"
+	"./sound/endtalk/end1.wav"
+	"./sound/endtalk/end2.wav"
+	"./sound/endtalk/end3.wav"
+	"./sound/endtalk/end4.wav"
+	"./sound/endtalk/end5.wav"
+	"./sound/endtalk/end6.wav"
+	"./sound/endtalk/end7.wav"
+	"./sound/endtalk/end8.wav"
+	"./sound/endtalk/end9.wav"
+	"./sound/endtalk/end10.wav"
+	"./sound/endtalk/end11.wav"
+	"./sound/endtalk/end12.wav"
+
+
+	// Create sound specs (can be thought of as sound materials)
+	CIwSoundSpec
+	{
+		name		"button"		# The name we want to use to refer to this sound effect in out code
+		data		"button"		# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"end"			# The name we want to use to refer to this sound effect in out code
+		data		"end"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"star"			# The name we want to use to refer to this sound effect in out code
+		data		"star"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"swipe"			# The name we want to use to refer to this sound effect in out code
+		data		"swipe"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"scroll"		# The name we want to use to refer to this sound effect in out code
+		data		"scroll"		# The WAv file name (without .wav
+		vol 		0.9			# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"teleport"		# The name we want to use to refer to this sound effect in out code
+		data		"teleport"		# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"toxicated"		# The name we want to use to refer to this sound effect in out code
+		data		"toxicated"		# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"end1"			# The name we want to use to refer to this sound effect in out code
+		data		"end1"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end2"			# The name we want to use to refer to this sound effect in out code
+		data		"end2"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end3"			# The name we want to use to refer to this sound effect in out code
+		data		"end3"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end4"			# The name we want to use to refer to this sound effect in out code
+		data		"end4"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end5"			# The name we want to use to refer to this sound effect in out code
+		data		"end5"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end6"			# The name we want to use to refer to this sound effect in out code
+		data		"end6"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end7"			# The name we want to use to refer to this sound effect in out code
+		data		"end7"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end8"			# The name we want to use to refer to this sound effect in out code
+		data		"end8"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end9"			# The name we want to use to refer to this sound effect in out code
+		data		"end9"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end10"			# The name we want to use to refer to this sound effect in out code
+		data		"end10"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}			
+	CIwSoundSpec
+	{
+		name		"end11"			# The name we want to use to refer to this sound effect in out code
+		data		"end11"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}		
+	CIwSoundSpec
+	{
+		name		"end12"			# The name we want to use to refer to this sound effect in out code
+		data		"end12"			# The WAv file name (without .wav
+		vol 		1.0				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"1"			# The name we want to use to refer to this sound effect in out code
+		data		"1"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"2"			# The name we want to use to refer to this sound effect in out code
+		data		"2"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"3"			# The name we want to use to refer to this sound effect in out code
+		data		"3"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"4"			# The name we want to use to refer to this sound effect in out code
+		data		"4"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"5"			# The name we want to use to refer to this sound effect in out code
+		data		"5"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"6"			# The name we want to use to refer to this sound effect in out code
+		data		"6"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"7"			# The name we want to use to refer to this sound effect in out code
+		data		"7"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"8"			# The name we want to use to refer to this sound effect in out code
+		data		"8"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"9"			# The name we want to use to refer to this sound effect in out code
+		data		"9"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"10"			# The name we want to use to refer to this sound effect in out code
+		data		"10"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"11"			# The name we want to use to refer to this sound effect in out code
+		data		"11"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"12"			# The name we want to use to refer to this sound effect in out code
+		data		"12"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"13"			# The name we want to use to refer to this sound effect in out code
+		data		"13"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"14"			# The name we want to use to refer to this sound effect in out code
+		data		"14"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"15"			# The name we want to use to refer to this sound effect in out code
+		data		"15"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"16"			# The name we want to use to refer to this sound effect in out code
+		data		"16"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"17"			# The name we want to use to refer to this sound effect in out code
+		data		"17"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"18"			# The name we want to use to refer to this sound effect in out code
+		data		"18"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"19"			# The name we want to use to refer to this sound effect in out code
+		data		"19"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"20"			# The name we want to use to refer to this sound effect in out code
+		data		"20"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"21"			# The name we want to use to refer to this sound effect in out code
+		data		"21"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"22"			# The name we want to use to refer to this sound effect in out code
+		data		"22"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"23"			# The name we want to use to refer to this sound effect in out code
+		data		"23"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"24"			# The name we want to use to refer to this sound effect in out code
+		data		"24"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"25"			# The name we want to use to refer to this sound effect in out code
+		data		"25"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"26"			# The name we want to use to refer to this sound effect in out code
+		data		"26"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"27"			# The name we want to use to refer to this sound effect in out code
+		data		"27"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"28"			# The name we want to use to refer to this sound effect in out code
+		data		"28"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"29"			# The name we want to use to refer to this sound effect in out code
+		data		"29"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+	CIwSoundSpec
+	{
+		name		"30"			# The name we want to use to refer to this sound effect in out code
+		data		"30"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"31"			# The name we want to use to refer to this sound effect in out code
+		data		"31"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"32"			# The name we want to use to refer to this sound effect in out code
+		data		"32"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"33"			# The name we want to use to refer to this sound effect in out code
+		data		"33"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"34"			# The name we want to use to refer to this sound effect in out code
+		data		"34"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"35"			# The name we want to use to refer to this sound effect in out code
+		data		"35"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"36"			# The name we want to use to refer to this sound effect in out code
+		data		"36"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"37"			# The name we want to use to refer to this sound effect in out code
+		data		"37"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+
+	CIwSoundSpec
+	{
+		name		"38"			# The name we want to use to refer to this sound effect in out code
+		data		"38"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"39"			# The name we want to use to refer to this sound effect in out code
+		data		"39"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+	CIwSoundSpec
+	{
+		name		"40"			# The name we want to use to refer to this sound effect in out code
+		data		"40"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"41"			# The name we want to use to refer to this sound effect in out code
+		data		"41"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"42"			# The name we want to use to refer to this sound effect in out code
+		data		"42"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"43"			# The name we want to use to refer to this sound effect in out code
+		data		"43"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"44"			# The name we want to use to refer to this sound effect in out code
+		data		"44"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"45"			# The name we want to use to refer to this sound effect in out code
+		data		"45"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"46"			# The name we want to use to refer to this sound effect in out code
+		data		"46"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"47"			# The name we want to use to refer to this sound effect in out code
+		data		"47"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+	CIwSoundSpec
+	{
+		name		"48"			# The name we want to use to refer to this sound effect in out code
+		data		"48"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"49"			# The name we want to use to refer to this sound effect in out code
+		data		"49"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+	CIwSoundSpec
+	{
+		name		"50"			# The name we want to use to refer to this sound effect in out code
+		data		"50"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"51"			# The name we want to use to refer to this sound effect in out code
+		data		"51"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"52"			# The name we want to use to refer to this sound effect in out code
+		data		"52"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"53"			# The name we want to use to refer to this sound effect in out code
+		data		"53"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"54"			# The name we want to use to refer to this sound effect in out code
+		data		"54"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"55"			# The name we want to use to refer to this sound effect in out code
+		data		"55"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"56"			# The name we want to use to refer to this sound effect in out code
+		data		"56"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"57"			# The name we want to use to refer to this sound effect in out code
+		data		"57"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+	CIwSoundSpec
+	{
+		name		"58"			# The name we want to use to refer to this sound effect in out code
+		data		"58"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"59"			# The name we want to use to refer to this sound effect in out code
+		data		"59"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+
+	CIwSoundSpec
+	{
+		name		"60"			# The name we want to use to refer to this sound effect in out code
+		data		"60"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"61"			# The name we want to use to refer to this sound effect in out code
+		data		"61"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"62"			# The name we want to use to refer to this sound effect in out code
+		data		"62"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"63"			# The name we want to use to refer to this sound effect in out code
+		data		"63"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"64"			# The name we want to use to refer to this sound effect in out code
+		data		"64"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}
+	CIwSoundSpec
+	{
+		name		"65"			# The name we want to use to refer to this sound effect in out code
+		data		"65"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	CIwSoundSpec
+	{
+		name		"66"			# The name we want to use to refer to this sound effect in out code
+		data		"66"			# The WAv file name (without .wav
+		vol 		0.9				# Default volume to be played at
+		loop		false			# Do we want this sound effect to play forever?
+	}	
+	
+
+	// Create a sound group to contain all of our sound specs
+	CIwSoundGroup
+	{
+		name		"sound_effects"	# Name of our sound group
+		maxPolyphony 3				# Maximum sounds that can be played simultaneously
+		killOldest	true			# Tell system not to stop the oldest sound effects frmo playing if we run out of channels
+		addSpec		"button"		# Add the explosion sound spec to our sound group
+		addSpec		"end"			# Add the explosion sound spec to our sound group
+		addSpec		"star"			# Add the explosion sound spec to our sound group
+		addSpec		"swipe"			# Add the explosion sound spec to our sound group
+		addSpec		"teleport"		# Add the explosion sound spec to our sound group
+		addSpec		"toxicated"		# Add the explosion sound spec to our sound group
+	}
+
+}
